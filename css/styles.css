@@ -1,0 +1,23 @@
+@charset "utf-8";
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    vertical-align: top;
+    border-color: #dee2e6;
+}
+
+.table th,
+.table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+/* Adjust styles for the recipe images */
+.recipe-img {
+    max-width: 100px; /* Adjust the maximum width of the images */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure images are displayed as blocks */
+    margin: 0 auto; /* Center images within their containers */
+}
